@@ -1,0 +1,21 @@
+﻿@page
+@model LessonExercise_01.Pages.GenerateNumberModel
+@{
+}
+
+<p>Tiden är @Model.Tid</p>
+
+@if (Model.MyRandomNumber > 200000)
+            {
+                <h3>Stort nummer</h3>
+            }
+else if (Model.MyRandomNumber > 100000)
+            {
+                <h3>Ganska stort nummer</h3>
+            }
+else
+            {
+                <h3>Litet nummer</h3>
+            }
+
+

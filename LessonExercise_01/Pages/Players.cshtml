@@ -1,0 +1,11 @@
+﻿@page
+@model LessonExercise_01.Pages.PlayersModel
+@{
+}
+
+<ul>
+    @foreach (var playersName in Model.Players)
+    {
+        <li>@playersName</li>
+    }
+</ul>
