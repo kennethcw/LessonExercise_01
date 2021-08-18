@@ -6,16 +6,18 @@
 <p>Tiden är @Model.Tid</p>
 
 @if (Model.MyRandomNumber > 200000)
-            {
-                <h3>Stort nummer</h3>
-            }
+{
+    <h3>Stort nummer</h3>
+}
 else if (Model.MyRandomNumber > 100000)
-            {
-                <h3>Ganska stort nummer</h3>
-            }
+{
+    <h3>Ganska stort nummer</h3>
+}
 else
-            {
-                <h3>Litet nummer</h3>
-            }
+{
+    <h3>Litet nummer</h3>
+}
 
+<hr />
+<a asp-page="/Players">Till Namnlistan</a>
 

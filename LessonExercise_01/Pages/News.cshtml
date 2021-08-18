@@ -1,0 +1,12 @@
+﻿@page
+@model LessonExercise_01.Pages.NewsModel
+@{
+}
+
+<h3>Nyheter</h3>
+
+@foreach (var nyhet in Model.Items)
+            {
+                <h2>@nyhet.Title</h2>
+                <p>@nyhet.Desc</p>
+            }
