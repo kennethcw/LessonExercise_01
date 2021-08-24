@@ -21,7 +21,7 @@ namespace LessonExercise_01.Pages
             Items = new List<NewsItemList>
             {
                 new NewsItemList{Desc = "Joe Biden hits the dab", Title = "Joe Biden did what?"},
-                new NewsItemList{Desc = "F1 fast", Title = "Car"},
+                new NewsItemList{Desc = "fghgghjfgjyj", Title = "123123123123"},
                 new NewsItemList{Desc = "Hehe", Title = "Haha"}
             };
         }   
